@@ -1,10 +1,10 @@
 ---
 import '@/styles/globals.css'
 
-import { Button } from "@/components/ui/button"
+import { Shell } from "@/components/shell"
 ---
 
-<html lang="en">
+<html lang="en" class="dark">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -13,8 +13,6 @@ import { Button } from "@/components/ui/button"
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
-
-		<Button>Hello World</Button>
+		<Shell client:load/>
 	</body>
 </html>
