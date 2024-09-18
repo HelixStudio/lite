@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { CodeEditor } from "@/components/editor";
 
 import {
     Panel,
@@ -13,8 +14,8 @@ export const Shell = () => {
                 <Button>Hello World</Button>
             </Panel>
             <PanelResizeHandle className="w-1 bg-secondary focus:bg-primary transition-colors" />
-            <Panel minSize={25}>
-                <h1>Astro</h1>
+            <Panel minSize={25} defaultSize={85}>
+                <CodeEditor />
             </Panel>
         </PanelGroup>
     </main>;
