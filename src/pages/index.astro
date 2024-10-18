@@ -1,18 +1,20 @@
 ---
-import '@/styles/globals.css'
+import "@/styles/globals.css";
 
-import { Shell } from "@/components/shell"
+import "@fontsource/amaranth";
+
+import { Shell } from "@/components/shell";
 ---
 
 <html lang="en" class="dark">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<Shell client:only/>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <Shell client:only />
+  </body>
 </html>

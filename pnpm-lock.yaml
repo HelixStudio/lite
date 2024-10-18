@@ -17,6 +17,12 @@ dependencies:
   '@codemirror/lang-cpp':
     specifier: ^6.0.2
     version: 6.0.2
+  '@fontsource/amaranth':
+    specifier: ^5.1.0
+    version: 5.1.0
+  '@fontsource/twinkle-star':
+    specifier: ^5.1.0
+    version: 5.1.0
   '@radix-ui/react-slot':
     specifier: ^1.1.0
     version: 1.1.0(@types/react@18.3.7)(react@18.3.1)
@@ -795,6 +801,14 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource/amaranth@5.1.0:
+    resolution: {integrity: sha512-T7MQmYcRrvMQxm+TTRboVqsaN48WWq0a0Jm9O/aet4rgGblyoHZrrliJ8iAXYiV8lNvMd6SlnL/5Gb21uiqavQ==}
+    dev: false
+
+  /@fontsource/twinkle-star@5.1.0:
+    resolution: {integrity: sha512-j4zXPXlhLpduP59A9hsdleF+1ftXPo4TbeNRAxK1E9v6N5rV/BL0PNmQ1WSMhljfCopSEQsy168xMrEd9/9E4g==}
+    dev: false
 
   /@img/sharp-darwin-arm64@0.33.5:
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
